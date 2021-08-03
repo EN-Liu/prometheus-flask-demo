@@ -11,7 +11,7 @@
  receivers:
    - name: 'slack'
      slack_configs:
-       - api_url: "https://hooks.slack.com/services/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"
+       - api_url: ""
          channel: "#test"
          text: "Alert!"
          title: "{{.CommonAnnotations.summary}}"
